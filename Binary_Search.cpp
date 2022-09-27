@@ -1,7 +1,6 @@
 // First and last position (index) of element in sorted array
 
 #include<iostream>
-#include <vector>
 using namespace std;
  
 int firstPosition(int arr[], int n, int key ) 
@@ -30,6 +29,7 @@ int firstPosition(int arr[], int n, int key )
     }
     return ans;
 }
+
 int lastPosition(int arr[], int n, int key ) 
 {
     int ans= -1;
@@ -56,6 +56,7 @@ int lastPosition(int arr[], int n, int key )
     }
     return ans;
 }
+
 int main()
 {
     int arr[8] ={1,2,3,3,3,3,4,5};
